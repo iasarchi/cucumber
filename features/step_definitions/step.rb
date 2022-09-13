@@ -19,4 +19,5 @@ Dado("que hoje e {string}") do |dia|
   Entao("a resposta deve ser {string}") do |promocao_esperada|
     expect(@valor_obtido).to eql promocao_esperada
   end
+  
 
